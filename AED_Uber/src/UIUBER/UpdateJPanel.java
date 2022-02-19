@@ -67,14 +67,14 @@ public class UpdateJPanel extends javax.swing.JPanel {
         for (UberCar car : carinlist.getSelectcar()){
             Object[] row = new Object[10];
             row[0] = car;
-            row[1] = car.getManufacture();
-            row[2]= car.getMaxseats();
-            row[3]= car.getMinseats();
+            row[1]=car.getModnumber();            
+            row[2]= car.getMinseats();
+            row[3]= car.getMaxseats();
             row[4]=car.getSrnumber();
-            row[5]=car.getModnumber();
+            row[5] = car.getManufacture();
             row[6]=car.getCityAvailable();
-            row[7]=car.isAvailable();
-            row[8]=car.isMaintcert();
+            row[7]=car.isMaintcert();
+            row[8]=car.isAvailable();
             row[9]=car.getUpdatedOn();
             dtm.addRow(row);            
     }

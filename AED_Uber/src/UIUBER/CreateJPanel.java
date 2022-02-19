@@ -394,6 +394,10 @@ return;
                 JOptionPane.showMessageDialog(null, "Max Seat has to be less than 20");
 return;
             }
+////if (mnseat>mxseat){
+////JOptionPane.showMessageDialog(null, "Min can not be greater than max");
+////return;
+//}
 
            if (manufactyr > 2023) {
                 JOptionPane.showMessageDialog(null, "Enter validate Manufacturing Year");
